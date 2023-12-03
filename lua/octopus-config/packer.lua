@@ -74,4 +74,11 @@ return require('packer').startup(function(use)
           }
       end
   })
+  use 'm4xshen/autoclose.nvim'
+  use {
+    'norcalli/nvim-colorizer.lua',
+    config = function()
+      require('colorizer').setup()
+    end
+    }
 end)
