@@ -219,14 +219,14 @@ time([[Defining packer_plugins]], false)
 time([[Config for nvim-colorizer.lua]], true)
 try_loadstring("\27LJ\2\n7\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\14colorizer\frequire\0", "config", "nvim-colorizer.lua")
 time([[Config for nvim-colorizer.lua]], false)
--- Config for: tokyodark.nvim
-time([[Config for tokyodark.nvim]], true)
-try_loadstring("\27LJ\2\ni\0\2\5\0\6\0\v6\2\0\0'\4\1\0B\2\2\0029\2\2\2\18\4\1\0B\2\2\0016\2\3\0009\2\4\2'\4\5\0B\2\2\1K\0\1\0\26colorscheme tokyodark\bcmd\bvim\nsetup\14tokyodark\frequire\0", "config", "tokyodark.nvim")
-time([[Config for tokyodark.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
+-- Config for: tokyodark.nvim
+time([[Config for tokyodark.nvim]], true)
+try_loadstring("\27LJ\2\ni\0\2\5\0\6\0\v6\2\0\0'\4\1\0B\2\2\0029\2\2\2\18\4\1\0B\2\2\0016\2\3\0009\2\4\2'\4\5\0B\2\2\1K\0\1\0\26colorscheme tokyodark\bcmd\bvim\nsetup\14tokyodark\frequire\0", "config", "tokyodark.nvim")
+time([[Config for tokyodark.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
